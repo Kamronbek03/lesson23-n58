@@ -1,0 +1,739 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+.container {
+  margin: 0 195px;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  padding: 11px 197px 11px 195px;
+  gap: 446px;
+}
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  padding: 0 27px 0 28px;
+}
+.nav-items a {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.nav-items a:hover {
+  color: #000000;
+}
+.head-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: url(../images/background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.head-content h1 {
+  font-family: Montserrat;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252b42;
+  margin: 104px 734px 35px 197px;
+}
+.head-content h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  margin: 0 867px 35px 197px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 894px 188px 197px;
+}
+.but-1 {
+  padding: 10px 36px;
+  border-radius: 37px;
+  border: 1px solid #ffa62b;
+  background: inherit;
+  transition: 0.5s;
+}
+.but-1 a {
+  color: #ffa62b;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.but-1:hover {
+  background-color: #ffa62b;
+  a {
+    color: #fff;
+  }
+}
+.but-2 {
+  padding: 10px 36px;
+  border-radius: 37px;
+  border: 1px solid #00a0c1;
+  background: inherit;
+  transition: 0.5s;
+}
+.but-2 a {
+  color: #00a0c1;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.but-2:hover {
+  background-color: #00a0c1;
+  a {
+    color: #fff;
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 197px;
+  margin-right: 193px;
+  margin-top: -108px;
+  z-index: 1;
+  position: relative;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  gap: 10px;
+  padding: 35px 70px 35px 40px;
+  box-shadow: 0px 13px 19px 0px #00000012;
+  transition: 0.5s;
+  margin-bottom: 112px;
+}
+.card h3 {
+  color: #252b42;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+.card p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  max-width: 218px;
+}
+.card .icon {
+  fill: #00a0c1;
+}
+.card:hover {
+  background: #00a0c1;
+  * {
+    color: #fff;
+  }
+}
+.card:hover .icon svg {
+  fill: #fff;
+}
+main {
+  background: #fafafa;
+}
+.bolim-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+.text-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 93px;
+  padding: 0 176.5px;
+}
+.text-content h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252b42;
+}
+.text-content p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+}
+.cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 0 80px 0;
+}
+.card1 {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  background-color: #fff;
+  gap: 10px;
+  padding: 30px 0;
+}
+.card1 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252b42;
+}
+.card1:hover {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.bolim-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+.text-content1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 197px;
+  margin: 45px 93px;
+}
+.text-content1 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252b42;
+}
+.text-content1 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+  text-align: center;
+}
+.cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 101px;
+}
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #fff;
+}
+.card2 h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252b42;
+  max-width: 130px;
+  margin: 30px 0 0 30px;
+}
+.card2 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  margin: 0 0 30px 30px;
+}
+.content img {
+  width: 100%;
+}
+.content:hover {
+  .card2 {
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+}
+.bolim-3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0 157px 0;
+  background-color: #fff;
+}
+.text-content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 93px;
+  padding: 0 176.5px;
+  margin-bottom: 100px;
+}
+.text-content2 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #252b42;
+}
+.text-content2 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+}
+.content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.text-content3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 333px;
+}
+.text-content3 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+.text-content3 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  margin-bottom: 20px;
+}
+.icon-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+.text h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252b42;
+  max-width: 277px;
+  margin-bottom: 5px;
+}
+.text h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+.bolim-4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 65px;
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45.84px;
+  padding: 50px 0;
+}
+.subcribe-label {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 42px 30px 50px;
+  background-color: #16697a;
+  margin: 20px 0;
+}
+.subcribe-label label {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #fff;
+  max-width: 258px;
+  margin-right: 240px;
+}
+.subcribe-label input {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  padding: 15px 235px 15px 20px;
+}
+.subcribe-label button {
+  padding: 15px 22.5px;
+  border: 1px solid white;
+  background-color: #ffa62b;
+}
+.subcribe-label button a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: white;
+}
+.bolim-5 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3f3f3;
+  padding-bottom: 208px;
+}
+.text-content4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 80px 93px;
+  padding: 0 197px;
+}
+.text-content4 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252b42;
+}
+.text-content4 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+}
+.cards3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  padding: 50px 52.5px 50px 53.5px;
+  max-width: 328px;
+}
+.card3 .icon svg {
+  fill: #00a0c1;
+  margin: 0 73.81px;
+  margin-bottom: 15px;
+}
+.h6 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #252b42;
+}
+.card3 h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #252b42;
+  margin: 15px 60.5px;
+}
+.card3 button {
+  border: 1px solid #ffa62b;
+  padding: 10px 20px;
+  background-color: inherit;
+}
+.card3 button a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #ffa62b;
+}
+.card3:hover {
+  background-color: #252b42;
+  * {
+    color: white;
+  }
+  .icon svg {
+    fill: white;
+  }
+}
+.card3:hover button {
+  border-color: white;
+}
+.bolim-6 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0 98px 0;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#name {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding: 13px 980px 13px 20px;
+  border: 1px solid #e0e0e0;
+  background-color: inherit;
+}
+.name {
+  position: relative;
+}
+.name::after {
+  content: "*";
+  position: absolute;
+  top: 13px;
+  left: 66px;
+  color: red;
+}
+#email {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding: 13px 20px;
+  border: 1px solid #e0e0e0;
+  background-color: inherit;
+  width: 100%;
+}
+.tel {
+  position: relative;
+}
+.tel::after {
+  content: "*";
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  color: red;
+}
+#tel {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding: 13px 20px;
+  border: 1px solid #e0e0e0;
+  background-color: inherit;
+  width: 100%;
+}
+textarea {
+  resize: none;
+  padding: 12px 20px 120px 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  background-color: inherit;
+  width: 100%;
+}
+#continent {
+  color: #000000;
+  padding: 13px 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  background-color: inherit;
+  width: 100%;
+}
+.bolim-6 button {
+  padding: 15px 40px;
+  border: 1px solid #ffa62b;
+  border-radius: 5px;
+  background-color: inherit;
+  margin: 59px 443px 0 444px;
+  transition: 0.5s;
+}
+.bolim-6 button a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #ffa62b;
+}
+.bolim-6 button:hover {
+  background-color: #ffa62b;
+  a {
+    color: white;
+  }
+}
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #16697a;
+  padding: 50px 195px 87px 195px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.links h5 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+.linkss {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.linkss a {
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+.iconss {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.textss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.textss p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #fafafa;
+  padding: 25px 195px;
+  gap: 445px;
+}
+.footer-bottom h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  gap: 20px;
+}
