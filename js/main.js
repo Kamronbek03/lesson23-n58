@@ -14,3 +14,9 @@ function toggleBacktop() {
     backtop.style.bottom = "-50px";
   }
 }
+
+function toggleNavbar() {
+  document.getElementById("navbar-responsive").classList.toggle("open");
+}
+
+document.getElementById("menu-btn").addEventListener("click", toggleNavbar);

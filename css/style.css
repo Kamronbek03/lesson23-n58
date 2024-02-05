@@ -31,7 +31,6 @@ a {
   z-index: 2;
   background-color: #fff;
   padding: 11px 197px 11px 195px;
-  /* gap: 446px; */
 }
 .nav-items {
   display: flex;
@@ -58,6 +57,9 @@ a {
   background: url(../images/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 80px;
 }
 .head-content h1 {
   font-family: Montserrat;
@@ -83,7 +85,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 0 894px 188px 197px;
+  margin: 0 0 188px 197px;
 }
 .but-1 {
   padding: 10px 36px;
@@ -134,7 +136,7 @@ a {
   flex-wrap: wrap;
   gap: 30px;
   margin-left: 197px;
-  margin-right: 193px;
+  /* margin-right: 193px; */
   margin-top: -108px;
   z-index: 1;
   position: relative;
@@ -185,6 +187,7 @@ a {
 main {
   background: #fafafa;
 }
+
 .bolim-1 {
   display: flex;
   flex-wrap: wrap;
@@ -760,4 +763,40 @@ textarea {
   justify-content: center;
   z-index: 99;
   transition: 0.5s;
+}
+#navbar-responsive.open {
+  right: 0;
+}
+
+.menu-btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 480px) {
+  /* // xs */
+  #navbar-responsive {
+    position: fixed;
+    top: 76px;
+    bottom: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    transition: 0.5s;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container {
+    margin: 0 43.5px;
+  }
 }
